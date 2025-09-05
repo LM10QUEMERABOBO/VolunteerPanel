@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            style="@style/textView_15"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Add Event"
+            android:textStyle="bold"
+            android:textSize="24sp"
+            android:textColor="@color/new_red"
+            android:layout_marginBottom="24dp" />
+
+        <EditText
+            style="@style/editText"
+            android:id="@+id/etEventName"
+            android:drawableStart="@drawable/ic_name"
+            android:drawablePadding="@dimen/_5sdp"
+            android:hint="Event Name"
+            android:inputType="textPersonName"
+            android:padding="12dp"
+            android:layout_marginBottom="12dp"/>
+
+        <EditText
+            style="@style/editText"
+            android:id="@+id/etEventDate"
+            android:hint="Event Date (YYYY-MM-DD)"
+            android:drawableStart="@drawable/ic_name"
+            android:drawablePadding="@dimen/_5sdp"
+            android:inputType="date"
+            android:padding="12dp"
+            android:layout_marginBottom="12dp"/>
+
+        <EditText
+            style="@style/editText"
+            android:id="@+id/etEventLocation"
+            android:hint="Event Location"
+            android:drawableStart="@drawable/ic_name"
+            android:drawablePadding="@dimen/_5sdp"
+            android:inputType="text"
+            android:padding="12dp"
+            android:layout_marginBottom="12dp"/>
+        <EditText
+            style="@style/editText"
+            android:id="@+id/etEventTime"
+            android:hint="Event Time"
+            android:drawableStart="@drawable/ic_name"
+            android:drawablePadding="@dimen/_5sdp"
+            android:inputType="time"
+            android:padding="12dp"
+            android:layout_marginBottom="12dp"/>
+
+        <EditText
+            style="@style/editText"
+            android:id="@+id/etEventDescription"
+            android:hint="Event Description"
+            android:inputType="textMultiLine"
+            android:minLines="3"
+            android:layout_marginBottom="16dp"/>
+
+
+        <Button
+            android:id="@+id/etEvent_button"
+            style="@style/button_20"
+            android:text="Add event!"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:layout_marginBottom="@dimen/_10sdp"
+            android:layout_marginHorizontal="@dimen/_20sdp"
+            app:backgroundTint="@null"
+            android:background="@drawable/custom_button"
+            />
+
+    </LinearLayout>
+</ScrollView>
