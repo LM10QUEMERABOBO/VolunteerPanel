@@ -1,4 +1,4 @@
-Volunteer Panel:
+# Volunteer Panel
 
 ->The Volunteer Panel is a dedicated interface designed for volunteers to manage their event participation efficiently. It provides the following core functionalities:
 
